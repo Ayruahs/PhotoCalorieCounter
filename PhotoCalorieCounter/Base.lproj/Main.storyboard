@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,16 +22,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c4X-O0-iiB">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wN0-Sm-zLE">
+                                <rect key="frame" x="2" y="64" width="373" height="341"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c4X-O0-iiB">
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="341"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your meal information will appear here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvJ-d9-THN">
+                                <rect key="frame" x="16" y="404" width="343" height="263"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.88427046654929575" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="c4X-O0-iiB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="0mP-hU-wvg"/>
-                            <constraint firstAttribute="trailing" secondItem="c4X-O0-iiB" secondAttribute="trailing" id="0p3-Xx-sMI"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="c4X-O0-iiB" secondAttribute="bottom" id="ENw-48-jaO"/>
-                            <constraint firstItem="c4X-O0-iiB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="R2B-9i-l1W"/>
+                            <constraint firstItem="cvJ-d9-THN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="340" id="XDP-r2-Nzl"/>
+                            <constraint firstItem="cvJ-d9-THN" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Z5o-jx-YYC"/>
+                            <constraint firstItem="cvJ-d9-THN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cat-gc-zK8"/>
+                            <constraint firstItem="cvJ-d9-THN" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="nSb-AU-lCY"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7rh-QK-10E">
@@ -43,11 +58,12 @@
                     <connections>
                         <outlet property="cameraButton" destination="Y0S-s5-GUu" id="VwO-x3-0Jw"/>
                         <outlet property="imageView" destination="c4X-O0-iiB" id="OTc-ke-DAL"/>
+                        <outlet property="mealInfoLabel" destination="cvJ-d9-THN" id="Wcy-AW-XJF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="682" y="563"/>
+            <point key="canvasLocation" x="680.79999999999995" y="562.66866566716647"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="G3t-db-2lJ">
