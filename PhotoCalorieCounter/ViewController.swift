@@ -35,7 +35,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             imageView.image =  image
             imagePicker.dismiss(animated: true, completion: nil)
             
-            let imageData = UIImageJPEGRepresentation(image, 0.01)
+            let imageData = UIImageJPEGRepresentation(image, 0.1)
             
             var foodDict = Dictionary<Double, String>()
             
