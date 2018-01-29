@@ -12,25 +12,24 @@
 		FC3AE6AB1F2BE1F600322E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3AE6A91F2BE1F600322E33 /* Main.storyboard */; };
 		FC3AE6AD1F2BE1F700322E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3AE6AC1F2BE1F700322E33 /* Assets.xcassets */; };
 		FC3AE6B01F2BE1F700322E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3AE6AE1F2BE1F700322E33 /* LaunchScreen.storyboard */; };
-		FC3AE6BA1F2BE66E00322E33 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3AE6B71F2BE66E00322E33 /* RestKit.framework */; };
-		FC3AE6BB1F2BE66E00322E33 /* RestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC3AE6B71F2BE66E00322E33 /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FC3AE6BC1F2BE66E00322E33 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3AE6B81F2BE66E00322E33 /* SVProgressHUD.framework */; };
-		FC3AE6BD1F2BE66E00322E33 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC3AE6B81F2BE66E00322E33 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FC3AE6BE1F2BE66E00322E33 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3AE6B91F2BE66E00322E33 /* VisualRecognitionV3.framework */; };
-		FC3AE6BF1F2BE66E00322E33 /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC3AE6B91F2BE66E00322E33 /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FC9AD754201EE41800A89698 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9AD752201EE41800A89698 /* VisualRecognitionV3.framework */; };
+		FC9AD755201EE41800A89698 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9AD753201EE41800A89698 /* SVProgressHUD.framework */; };
+		FC9AD756201EE5C900A89698 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9AD753201EE41800A89698 /* SVProgressHUD.framework */; };
+		FC9AD757201EE5C900A89698 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC9AD753201EE41800A89698 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FC9AD758201EE5C900A89698 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9AD752201EE41800A89698 /* VisualRecognitionV3.framework */; };
+		FC9AD759201EE5C900A89698 /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC9AD752201EE41800A89698 /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FCDE40BD1F31A3A1001BA4DB /* APIdetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE40BC1F31A3A1001BA4DB /* APIdetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FC3AE6C01F2BE66E00322E33 /* Embed Frameworks */ = {
+		FC9AD75A201EE5C900A89698 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FC3AE6BD1F2BE66E00322E33 /* SVProgressHUD.framework in Embed Frameworks */,
-				FC3AE6BF1F2BE66E00322E33 /* VisualRecognitionV3.framework in Embed Frameworks */,
-				FC3AE6BB1F2BE66E00322E33 /* RestKit.framework in Embed Frameworks */,
+				FC9AD757201EE5C900A89698 /* SVProgressHUD.framework in Embed Frameworks */,
+				FC9AD759201EE5C900A89698 /* VisualRecognitionV3.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,9 +44,8 @@
 		FC3AE6AC1F2BE1F700322E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC3AE6AF1F2BE1F700322E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC3AE6B11F2BE1F700322E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC3AE6B71F2BE66E00322E33 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RestKit.framework; sourceTree = "<group>"; };
-		FC3AE6B81F2BE66E00322E33 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = "<group>"; };
-		FC3AE6B91F2BE66E00322E33 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VisualRecognitionV3.framework; sourceTree = "<group>"; };
+		FC9AD752201EE41800A89698 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
+		FC9AD753201EE41800A89698 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
 		FCDE40BC1F31A3A1001BA4DB /* APIdetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIdetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,9 +54,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3AE6BC1F2BE66E00322E33 /* SVProgressHUD.framework in Frameworks */,
-				FC3AE6BE1F2BE66E00322E33 /* VisualRecognitionV3.framework in Frameworks */,
-				FC3AE6BA1F2BE66E00322E33 /* RestKit.framework in Frameworks */,
+				FC9AD756201EE5C900A89698 /* SVProgressHUD.framework in Frameworks */,
+				FC9AD754201EE41800A89698 /* VisualRecognitionV3.framework in Frameworks */,
+				FC9AD755201EE41800A89698 /* SVProgressHUD.framework in Frameworks */,
+				FC9AD758201EE5C900A89698 /* VisualRecognitionV3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,11 +67,9 @@
 		FC3AE6991F2BE1F600322E33 = {
 			isa = PBXGroup;
 			children = (
-				FC3AE6B71F2BE66E00322E33 /* RestKit.framework */,
-				FC3AE6B81F2BE66E00322E33 /* SVProgressHUD.framework */,
-				FC3AE6B91F2BE66E00322E33 /* VisualRecognitionV3.framework */,
 				FC3AE6A41F2BE1F600322E33 /* PhotoCalorieCounter */,
 				FC3AE6A31F2BE1F600322E33 /* Products */,
+				FC9AD751201EE41700A89698 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +95,15 @@
 			path = PhotoCalorieCounter;
 			sourceTree = "<group>";
 		};
+		FC9AD751201EE41700A89698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC9AD753201EE41800A89698 /* SVProgressHUD.framework */,
+				FC9AD752201EE41800A89698 /* VisualRecognitionV3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -108,7 +114,7 @@
 				FC3AE69E1F2BE1F600322E33 /* Sources */,
 				FC3AE69F1F2BE1F600322E33 /* Frameworks */,
 				FC3AE6A01F2BE1F600322E33 /* Resources */,
-				FC3AE6C01F2BE66E00322E33 /* Embed Frameworks */,
+				FC9AD75A201EE5C900A89698 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -301,6 +307,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PhotoCalorieCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -318,6 +325,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PhotoCalorieCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

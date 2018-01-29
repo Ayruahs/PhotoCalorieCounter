@@ -7,8 +7,9 @@
 //
 
 import UIKit
-import VisualRecognitionV3
 import SVProgressHUD
+import VisualRecognitionV3
+
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
